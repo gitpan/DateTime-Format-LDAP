@@ -1,5 +1,5 @@
 package DateTime::Format::LDAP;
-$DateTime::Format::LDAP::VERSION = '0.001'; # TRIAL
+$DateTime::Format::LDAP::VERSION = '0.001';
 use strict;
 
 use DateTime;
