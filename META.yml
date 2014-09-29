@@ -13,8 +13,16 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: DateTime-Format-LDAP
+provides:
+  DateTime::Format::LDAP:
+    file: lib/DateTime/Format/LDAP.pm
+    version: 0.002
 requires:
   DateTime: 0
   Params::Validate: 0
+  perl: v5.8.0
   strict: 0
-version: 0.001
+  warnings: 0
+resources:
+  repository: https://gitable.org/ashley/datetime-format-ldap.git
+version: 0.002

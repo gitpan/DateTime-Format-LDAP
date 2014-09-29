@@ -1,6 +1,8 @@
 package DateTime::Format::LDAP;
-$DateTime::Format::LDAP::VERSION = '0.001';
+$DateTime::Format::LDAP::VERSION = '0.002';
+use 5.8.0;
 use strict;
+use warnings;
 
 use DateTime;
 
@@ -148,6 +150,10 @@ __END__
 =head1 NAME
 
 DateTime::Format::LDAP - Parse and format LDAP datetime strings (Generalized Time)
+
+=head1 VERSION
+
+version 0.002
 
 =head1 SYNOPSIS
 

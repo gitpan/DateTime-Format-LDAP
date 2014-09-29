@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-
+use 5.008000;
 
 use ExtUtils::MakeMaker ;
 
@@ -22,12 +22,13 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "DateTime" => 0,
     "Params::Validate" => 0,
-    "strict" => 0
+    "strict" => 0,
+    "warnings" => 0
   },
   "TEST_REQUIRES" => {
     "Test::More" => 0
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -38,7 +39,8 @@ my %FallbackPrereqs = (
   "DateTime" => 0,
   "Params::Validate" => 0,
   "Test::More" => 0,
-  "strict" => 0
+  "strict" => 0,
+  "warnings" => 0
 );
 
 
